@@ -1,7 +1,7 @@
 -- Alturus
 DELETE FROM `gossip_menu_option` WHERE (`MenuID` = 7594) AND (`OptionID` IN (0));
 INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`, `ActionMenuID`, `ActionPoiID`, `BoxCoded`, `BoxMoney`, `BoxText`, `BoxBroadcastTextID`, `VerifiedBuild`) VALUES
-(7594, 0, 0, 'I\'ve lost my key to Karazhan.', 30321, 1, 1, 0, 0, 0, 0, '', 0, 0);
+(7594, 0, 0, '我把卡拉赞的钥匙弄丢了。', 30321, 1, 1, 0, 0, 0, 0, '', 0, 0);
 
 DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 15) AND (`SourceGroup` = 7594);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
@@ -18,8 +18,8 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_
 -- A'dal
 DELETE FROM `gossip_menu_option` WHERE (`MenuID` = 7966) AND (`OptionID` IN (0, 1));
 INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`, `ActionMenuID`, `ActionPoiID`, `BoxCoded`, `BoxMoney`, `BoxText`, `BoxBroadcastTextID`, `VerifiedBuild`) VALUES
-(7966, 0, 0, 'A\'dal, I am ashamed to say that I have somehow misplaced the key to the Arcatraz.', 20427, 1, 1, 0, 0, 0, 0, '', 0, 0),
-(7966, 1, 0, 'A\'dal, I have lost the key to Tempest Keep and require a replacement.', 20230, 1, 1, 0, 0, 0, 0, '', 0, 0);
+(7966, 0, 0, '阿达尔，我很惭愧，我不知怎么把禁魔监狱的钥匙弄丢了。', 20427, 1, 1, 0, 0, 0, 0, '', 0, 0),
+(7966, 1, 0, '阿达尔，我弄丢了风暴要塞的钥匙，你能再给我一把吗？', 20230, 1, 1, 0, 0, 0, 0, '', 0, 0);
 
 DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 15) AND (`SourceGroup` = 7966);
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES

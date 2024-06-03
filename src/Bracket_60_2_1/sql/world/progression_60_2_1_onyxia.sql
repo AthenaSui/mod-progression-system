@@ -49,7 +49,7 @@ INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `params_0`, `params_1`, 
 
 DELETE FROM `dungeon_access_requirements` WHERE `dungeon_access_id` = 15;
 INSERT INTO `dungeon_access_requirements` (`dungeon_access_id`, `requirement_type`, `requirement_id`, `requirement_note`, `faction`, `priority`, `leader_only`, `comment`) VALUES
-(15, 2, 16309, 'You must have the Drakefire Amulet in your inventory before entering Onyxia\'s Lair.', 2, NULL, 0, '');
+(15, 2, 16309, '你必须在一个团队中，等级至少为50级，并在物品栏中携带着龙火护符才能进入。', 2, NULL, 0, '');
 
 UPDATE `dungeon_access_template` SET `min_level` = 60 WHERE `map_id` = 249 AND `difficulty` = 0;
 
@@ -130,13 +130,13 @@ INSERT INTO `gossip_menu` (`MenuId`, `TextId`) VALUES
 
 DELETE FROM `npc_text` WHERE `ID` IN (60040, 60041, 60042, 60043, 60044, 60045, 60046);
 INSERT INTO `npc_text` (`ID`, `text0_0`,  `BroadcastTextID0`) VALUES
-(60040, '<Lydros reaches into his robe and presents you with a dull, flat elven blade.>$b$BIn ages past, well before even the War of the Ancients, there existed this blade.', 0),
-(60041, 'The blade itself had to be crafted IN ceremony with the children of the Aspects. A rare occurrence indeed... for not only would a dragon have TO willingly heat and mold the enchanted metal with their breath, they would also need to contain the fury of their own enchantment by using their blood as temper.', 0),
-(60042, 'Over the course of 8,000 years, only a handful of these blades were created - each blade unique in both power and appearance. The blades of Quel\'Serrar would take ON the characteristics of their creator.', 0),
-(60043, 'Rumors exist of a single legendary blade of Quel\'Serrar crafted for an unknown entity by the combined might of the five Aspects. Before the abominations of Nefarian and Deathwing were thrust into our world, such meetings of the Aspect were represented by the term \'Prismatic.\' I could only assume that the Prismatic Blade of Quel\'Serrar was a most glorious creation.', 0),
-(60044, 'What I offer to you now is one such blade, unfired, unheated, untreated - the most raw and basic form.$b$bNow you merely need TO find a dragon that will willingly enchant the blade.$b$bIf you had an eternity to live,this might be a possibility; but since you are mortal and could very likely cease to exist at any moment, might I recommend trying to persuade one of the lesser dragons to do your bidding.', 0),
-(60045, 'Have you heard of the brood mother of the Black Flight? I believe she is called Onyxia...', 0),
-(60046, 'I have sensed your coming for quite some time, $n. It was written in the pattern of stars.', 0);
+(60040, '<莱德罗斯将手伸进他的长袍，拿出一把又盾又扁的精灵刀。>$B$B在过去，在远古战争之前，他们就是用这把刀来求生的。', 0),
+(60041, '在仪式中，必须使用守护者的后代来锻造这柄剑。真是少见啊……龙不得不锻造并为这柄剑附魔，还得牺牲自己的后代做为附魔的调和剂。', 0),
+(60042, '8,000年来只铸造出少量的剑——每柄剑的威力和外观都是独一无二的。奎尔赛拉之剑将沿袭其锻造者的特点。', 0),
+(60043, '在传说中，奎尔塞拉之剑是由一位不知名的铁匠结合了五条守护巨龙的力量锻造而成的。在奈法利安和死亡之翼扰乱我们的世界之前，守护巨龙的聚会被称为“五色集会”。看起来五色圣剑奎尔塞拉是他们最为显赫的创作之一。', 0),
+(60044, '我能给你的只有这把未经烧制、未经加工的刀刃——最原始、最基本的形态。$B$B现在你只需去找一条愿意为这把刀附魔的龙。$B$B如果你能长生不老的话，或许这还有可能；但是你是凡人，随时都可能命丧黄泉，我建议你试着找体型较小的龙来帮你完成这把剑。', 0),
+(60045, '你听说过黑龙公主吗？我想她名叫奥妮克希亚……', 0),
+(60046, '我早就已经预感到你要来了，$n，星象已经很明确地告诉了我。', 0);
 
 DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId` IN (14, 15) AND `SourceGroup` = 5747;
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
@@ -153,12 +153,12 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 
 DELETE FROM `gossip_menu_option` WHERE `MenuID` IN (5747, 60040, 60041, 60042, 60043, 60044, 60045, 60046);
 INSERT INTO `gossip_menu_option` (`menuID`, `optionid`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`, `ActionMenuID`, `ActionPoiID`, `BoxCoded`, `BoxMoney`, `BoxText`, `BoxBroadcastTextID`, `VerifiedBuild`) VALUES
-(5747,0,0,'(Continue.)', 9519,1,3,60041,0,0,0,NULL,0,0),
-(60041,0,0,'(Continue.)', 9519,1,3,60042,0,0,0,NULL,0,0),
-(60042,0,0,'(Continue.)', 9519,1,3,60043,0,0,0,NULL,0,0),
-(60043,0,0,'(Continue.)', 9519,1,3,60044,0,0,0,NULL,0,0),
-(60044,0,0,'Eh?',0,1,3,60045,0,0,0,NULL,0,0),
-(60045,0,0,'Maybe... What do I do now?',0,1,3,0,0,0,0,NULL,0,0);
+(5747,0,0,'（继续。）', 9519,1,3,60041,0,0,0,NULL,0,0),
+(60041,0,0,'（继续。）', 9519,1,3,60042,0,0,0,NULL,0,0),
+(60042,0,0,'（继续。）', 9519,1,3,60043,0,0,0,NULL,0,0),
+(60043,0,0,'（继续。）', 9519,1,3,60044,0,0,0,NULL,0,0),
+(60044,0,0,'嗯？',0,1,3,60045,0,0,0,NULL,0,0),
+(60045,0,0,'或许吧……我现在能做什么呢？',0,1,3,0,0,0,0,NULL,0,0);
 
 DELETE FROM `smart_scripts` WHERE `entryorguid` = 14368 AND `source_type` = 0 AND `id` IN (1, 2);
 insert into `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) values('14368','0','1','0','62','0','100','0','60045','0','0','0','56','18513','1','0','0','0','0','7','0','0','0','0','0','0','0','Lorekeeper Lydros - Giving A Dull and Flat Elven Blade after cliking on last gossip');

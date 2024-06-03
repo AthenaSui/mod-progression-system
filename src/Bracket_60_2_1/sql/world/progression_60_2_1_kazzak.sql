@@ -6,19 +6,19 @@ INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
 
 DELETE FROM `creature_text` WHERE `CreatureID` = 12397;
 INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
-(12397, 0, 0, 'I remember well the sting of defeat at the conclusion of the Third War. I have waited far too long for my revenge. Now the shadow of the Legion falls over this world. It is only a matter of time until all of your failed creation... is undone. ', 14, 0, 0, 0, 0, 11332, 20076, 0, 'kazzak SAY_INTRO'),
-(12397, 1, 0, 'The legion will conquer all!', 14, 0, 0, 0, 0, 11333, 20077, 3, 'kazzak SAY_AGGRO1'),
-(12397, 1, 1, 'All mortals will perish!', 14, 0, 0, 0, 0, 11334, 20078, 0, 'kazzak SAY_AGGRO2'),
-(12397, 2, 0, 'All life must be eradicated!', 14, 0, 0, 0, 0, 11335, 20079, 0, 'kazzak SAY_SURPREME1'),
-(12397, 2, 1, 'I\'ll rip the flesh from your bones!', 14, 0, 0, 0, 0, 11336, 20080, 0, 'kazzak SAY_SURPREME2'),
+(12397, 0, 0, '我仍然清晰地记得上次战争败北的耻辱。我等待复仇的机会已经等得太久了。现在，军团的阴影将笼罩这个世界，你们彻底毁灭的日子……已经不远了。', 14, 0, 0, 0, 0, 11332, 20076, 0, 'kazzak SAY_INTRO'),
+(12397, 1, 0, '军团将会征服一切！', 14, 0, 0, 0, 0, 11333, 20077, 3, 'kazzak SAY_AGGRO1'),
+(12397, 1, 1, '所有的凡人都将灭亡!', 14, 0, 0, 0, 0, 11334, 20078, 0, 'kazzak SAY_AGGRO2'),
+(12397, 2, 0, '所有的生命都将被根除！', 14, 0, 0, 0, 0, 11335, 20079, 0, 'kazzak SAY_SURPREME1'),
+(12397, 2, 1, '我要把你们生吞活剥!', 14, 0, 0, 0, 0, 11336, 20080, 0, 'kazzak SAY_SURPREME2'),
 (12397, 3, 0, 'Kirel narak!', 14, 0, 0, 0, 0, 11337, 20081, 0, 'kazzak SAY_KILL1'),
-(12397, 3, 1, 'Contemptible wretch!', 14, 0, 0, 0, 0, 11338, 20082, 0, 'kazzak SAY_KILL2'),
-(12397, 4, 0, 'The Legion... will never... fall.', 14, 0, 0, 0, 0, 11340, 20084, 0, 'kazzak SAY_DEATH'),
-(12397, 5, 0, '%s goes into a frenzy!', 16, 0, 0, 0, 0, 0, 38630, 0, 'kazzak EMOTE_FRENZY'),
-(12397, 6, 0, 'Invaders, you dangle upon the precipice of oblivion! The Burning Legion comes and with it comes your end.\n', 14, 0, 0, 0, 0, 0, 15895, 0, 'kazzak SAY_RAND1'),
-(12397, 6, 1, 'Impudent whelps, you only delay the inevitable. Where one has fallen, ten shall rise. Such is the will of Kazzak...', 14, 0, 0, 0, 0, 0, 16432, 0, 'kazzak SAY_RAND2'),
-(12397, 7, 0, 'The universe will be remade.', 14, 0, 0, 0, 0, 11339, 20083, 0, 'kazzak SAY_WIPE'),
-(12397, 8, 0, 'Kazzak is supreme!', 16, 0, 0, 0, 0, 0, 0, 0, 'kazzak SAY_SUPREME_VANILA');
+(12397, 3, 1, '可笑的蠢货！', 14, 0, 0, 0, 0, 11338, 20082, 0, 'kazzak SAY_KILL2'),
+(12397, 4, 0, '军团……永远不会……失败。', 14, 0, 0, 0, 0, 11340, 20084, 0, 'kazzak SAY_DEATH'),
+(12397, 5, 0, '%s陷入疯狂！', 16, 0, 0, 0, 0, 0, 38630, 0, 'kazzak EMOTE_FRENZY'),
+(12397, 6, 0, '入侵者，你们在遗忘的深渊边缘摇摆！燃烧军团就是你们的末日！\n', 14, 0, 0, 0, 0, 0, 15895, 0, 'kazzak SAY_RAND1'),
+(12397, 6, 1, '可笑的凡人，你们只是延迟了不可避免的命运。一个恶魔倒下去，十个恶魔会站起来。这就是卡扎克的意志……', 14, 0, 0, 0, 0, 0, 16432, 0, 'kazzak SAY_RAND2'),
+(12397, 7, 0, '宇宙将获得新生。', 14, 0, 0, 0, 0, 11339, 20083, 0, 'kazzak SAY_WIPE'),
+(12397, 8, 0, '卡扎克是至高无上的！', 16, 0, 0, 0, 0, 0, 0, 0, 'kazzak SAY_SUPREME_VANILA');
 
 DELETE FROM `creature` WHERE `guid` = 156950 AND `id1` = 12397;
 INSERT INTO `creature` (`guid`, `id1`, `id2`, `id3`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `ScriptName`, `VerifiedBuild`) VALUES

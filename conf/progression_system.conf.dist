@@ -38,6 +38,7 @@ ProgressionSystem.ReapplyUpdates = 0
 #
 
 ProgressionSystem.Bracket_0       = 0
+ProgressionSystem.Bracket_0_1     = 0 # TBC2.3之前经验调整
 ProgressionSystem.Bracket_1_19    = 0 # Shadowfang Keep, Deadmines, Wailing Caverns, Blackfathom Deeps, Ragefire Chasm
 ProgressionSystem.Bracket_20_29   = 0 # Stormwind Stockades, Razorfen Kraul, Gnomeregan
 ProgressionSystem.Bracket_30_39   = 0 # Uldaman, Razorfen Downs, Scarlet Monastery
@@ -63,6 +64,7 @@ ProgressionSystem.Bracket_70_3_2  = 0 # The Eye, Sha'tari Skyguard
 ProgressionSystem.Bracket_70_4_1  = 0 # Battle For Mount Hyjal, Arena Season 2, Netherwing
 ProgressionSystem.Bracket_70_4_2  = 0 # Black Temple
 ProgressionSystem.Bracket_70_5    = 0 # Zul'Aman, Arena Season 3
+ProgressionSystem.Bracket_70_5_1  = 0 # TBC2.3经验调整
 ProgressionSystem.Bracket_70_6_1  = 0 # Isle of Quel'Danas, Magister's  Terrace
 ProgressionSystem.Bracket_70_6_2  = 0 # Sunwell Plateau, Arena Season 4
 ProgressionSystem.Bracket_71_74   = 0 # 71-74 Dungeons
