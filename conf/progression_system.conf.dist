@@ -38,42 +38,78 @@ ProgressionSystem.ReapplyUpdates = 0
 #
 
 ProgressionSystem.Bracket_0       = 0
-ProgressionSystem.Bracket_0_1     = 0 # TBC2.3之前经验调整
-ProgressionSystem.Bracket_1_19    = 0 # 影牙城堡, 死亡矿井, 哀嚎洞穴, 黑暗深渊, 怒焰裂谷
-ProgressionSystem.Bracket_20_29   = 0 # 暴风城监狱, 剃刀沼泽, 诺莫瑞根
-ProgressionSystem.Bracket_30_39   = 0 # 奥达曼, 剃刀高地, 血色修道院
-ProgressionSystem.Bracket_40_49   = 0 # 沉没的神庙, 祖尔法拉克, 玛拉顿
-ProgressionSystem.Bracket_50_59_1 = 0 # 黑石深渊, 厄运之槌, 通灵学院, 斯坦索姆 
-ProgressionSystem.Bracket_50_59_2 = 0 # Blackrock Spire attunement requirement
-ProgressionSystem.Bracket_60_1_1  = 0 # 黑石塔
-ProgressionSystem.Bracket_60_1_2  = 0 # 熔火之心
-ProgressionSystem.Bracket_60_2_1  = 0 # 奥妮克希亚的巢穴
-ProgressionSystem.Bracket_60_2_2  = 0 # 黑翼之巢
-ProgressionSystem.Bracket_60_3_1  = 0 # 祖尔格拉布
-ProgressionSystem.Bracket_60_3_2  = 0 # 安其拉废墟20
-ProgressionSystem.Bracket_60_3_3  = 0 # 安其拉神殿40
-ProgressionSystem.Bracket_61_64   = 0 # 61-64 副本
-ProgressionSystem.Bracket_65_69   = 0 # 65-69 副本
-ProgressionSystem.Bracket_70_1_1  = 0 # 等级70, 飞行, 普通副本
-ProgressionSystem.Bracket_70_1_2  = 0 # 等级70, 英雄副本
-ProgressionSystem.Bracket_70_2_1  = 0 # 格鲁尔的巢穴, 玛瑟里顿的巢穴, 竞技场第一赛季
-ProgressionSystem.Bracket_70_2_2  = 0 # 卡拉赞
-ProgressionSystem.Bracket_70_2_3  = 0 # 奥格瑞拉
-ProgressionSystem.Bracket_70_3_1  = 0 # 毒蛇神殿
-ProgressionSystem.Bracket_70_3_2  = 0 # 风暴要塞, 沙塔尔天空卫队
-ProgressionSystem.Bracket_70_4_1  = 0 # 海加尔山之战, 竞技场第二赛季, 虚空龙
-ProgressionSystem.Bracket_70_4_2  = 0 # 黑暗神殿
-ProgressionSystem.Bracket_70_5    = 0 # 祖阿曼, 竞技场第三赛季
-ProgressionSystem.Bracket_70_5_1  = 0 # TBC2.3经验调整
-ProgressionSystem.Bracket_70_6_1  = 0 # 奎尔丹纳斯岛, 魔导师平台
-ProgressionSystem.Bracket_70_6_2  = 0 # 太阳之井, 竞技场第四赛季
-ProgressionSystem.Bracket_71_74   = 0 # 71-74 副本
-ProgressionSystem.Bracket_75_79   = 0 # 75-79 副本
-ProgressionSystem.Bracket_80_1    = 0 # 英雄副本, 纳克萨玛斯, 黑曜石圣殿, 永恒之眼, 阿尔卡冯的宝库, 竞技场第五赛季
-ProgressionSystem.Bracket_80_2    = 0 # 奥杜尔, 勇气试炼, 竞技场第六赛季
-ProgressionSystem.Bracket_80_3    = 0 # 奥妮克希亚的巢穴, 十字军的试炼, 竞技场第七赛季
-ProgressionSystem.Bracket_80_4_1  = 0 # 冰冠堡垒, 冰冠堡垒五人本, 竞技场第八赛季
-ProgressionSystem.Bracket_80_4_2  = 0 # 红玉圣殿
+# TBC2.3之前经验调整
+ProgressionSystem.Bracket_0_1     = 0
+# 影牙城堡, 死亡矿井, 哀嚎洞穴, 黑暗深渊, 怒焰裂谷
+ProgressionSystem.Bracket_1_19    = 0
+# 暴风城监狱, 剃刀沼泽, 诺莫瑞根
+ProgressionSystem.Bracket_20_29   = 0
+# 奥达曼, 剃刀高地, 血色修道院
+ProgressionSystem.Bracket_30_39   = 0
+# 沉没的神庙, 祖尔法拉克, 玛拉顿
+ProgressionSystem.Bracket_40_49   = 0
+# 黑石深渊, 厄运之槌, 通灵学院, 斯坦索姆
+ProgressionSystem.Bracket_50_59_1 = 0
+# Blackrock Spire attunement requirement
+ProgressionSystem.Bracket_50_59_2 = 0
+# 黑石塔
+ProgressionSystem.Bracket_60_1_1  = 0
+# 熔火之心
+ProgressionSystem.Bracket_60_1_2  = 0
+# 奥妮克希亚的巢穴
+ProgressionSystem.Bracket_60_2_1  = 0
+# 黑翼之巢
+ProgressionSystem.Bracket_60_2_2  = 0
+# 祖尔格拉布
+ProgressionSystem.Bracket_60_3_1  = 0
+# 安其拉废墟20
+ProgressionSystem.Bracket_60_3_2  = 0
+# 安其拉神殿40
+ProgressionSystem.Bracket_60_3_3  = 0
+# 61-64 副本
+ProgressionSystem.Bracket_61_64   = 0
+# 65-69 副本
+ProgressionSystem.Bracket_65_69   = 0
+# 等级70, 飞行, 普通副本
+ProgressionSystem.Bracket_70_1_1  = 0
+# 等级70, 英雄副本
+ProgressionSystem.Bracket_70_1_2  = 0
+# 格鲁尔的巢穴, 玛瑟里顿的巢穴, 竞技场第一赛季
+ProgressionSystem.Bracket_70_2_1  = 0
+# 卡拉赞
+ProgressionSystem.Bracket_70_2_2  = 0
+# 奥格瑞拉
+ProgressionSystem.Bracket_70_2_3  = 0
+# 毒蛇神殿
+ProgressionSystem.Bracket_70_3_1  = 0
+# 风暴要塞, 沙塔尔天空卫队
+ProgressionSystem.Bracket_70_3_2  = 0
+# 海加尔山之战, 竞技场第二赛季, 虚空龙
+ProgressionSystem.Bracket_70_4_1  = 0
+# 黑暗神殿
+ProgressionSystem.Bracket_70_4_2  = 0
+# 祖阿曼, 竞技场第三赛季
+ProgressionSystem.Bracket_70_5    = 0
+# TBC2.3经验调整
+ProgressionSystem.Bracket_70_5_1  = 0
+# 奎尔丹纳斯岛, 魔导师平台
+ProgressionSystem.Bracket_70_6_1  = 0
+# 太阳之井, 竞技场第四赛季
+ProgressionSystem.Bracket_70_6_2  = 0
+# 71-74 副本
+ProgressionSystem.Bracket_71_74   = 0
+# 75-79 副本
+ProgressionSystem.Bracket_75_79   = 0
+# 英雄副本, 纳克萨玛斯, 黑曜石圣殿, 永恒之眼, 阿尔卡冯的宝库, 竞技场第五赛季
+ProgressionSystem.Bracket_80_1    = 0
+# 奥杜尔, 勇气试炼, 竞技场第六赛季
+ProgressionSystem.Bracket_80_2    = 0
+# 奥妮克希亚的巢穴, 十字军的试炼, 竞技场第七赛季
+ProgressionSystem.Bracket_80_3    = 0
+# 冰冠堡垒, 冰冠堡垒五人本, 竞技场第八赛季
+ProgressionSystem.Bracket_80_4_1  = 0
+# 红玉圣殿
+ProgressionSystem.Bracket_80_4_2  = 0
 ProgressionSystem.Bracket_Custom  = 0
 
 #
